@@ -7,3 +7,10 @@ for num in range(2,1001):
                 break
         else:
             print(num)
+
+
+#break,continue,pass
+for h in range(10):
+    print(h)
+    break
+print("hello")
