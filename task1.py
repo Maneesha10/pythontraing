@@ -1,0 +1,9 @@
+x=10
+y=14
+z=13
+if(x>y)
+    print(x)
+elif(y>z):
+    print(y)
+else:
+    print(z)
