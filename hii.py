@@ -9,4 +9,20 @@ elif(no1> 5):
 else:
     print("Hello")
 
+#sets practice
+Days=set(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"])
+Months={"Jan","Feb","Mar"}
+Dates={21,22,17}
+print(Days)
+print(Months)
+print(Dates)
 
+
+for d in Days:
+  print(d)
+
+Days.add("Sun")
+print(Days)
+
+Days.discard("Mon")
+print(Days)
