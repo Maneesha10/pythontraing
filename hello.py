@@ -14,3 +14,8 @@ for h in range(10):
     print(h)
     break
 print("hello")
+
+x = ['ab', 'cd']
+for i in x:
+    i.upper()
+print(x)
